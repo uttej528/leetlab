@@ -6,17 +6,7 @@ import {
 } from "../libs/judge0.lib.js";
 
 export const createProblem = async (req, res) => {
-  const {
-    title,
-    description,
-    difficulty,
-    tags,
-    examples,
-    constraints,
-    testcases,
-    codeSnippets,
-    referenceSolutions,
-  } = req.body;
+  const {title,description,difficulty,tags,examples,constraints,testcases,codeSnippets,referenceSolutions} = req.body;
 
   // going to check the user role once again
 
